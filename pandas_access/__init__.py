@@ -32,7 +32,7 @@ def _extract_dtype(data_type):
     # open an issue.
     data_type = data_type.lower()
     if data_type.startswith('double'):
-        return np.float_
+        return np.float64_
     elif data_type.startswith('long'):
         return np.int_
     else:
